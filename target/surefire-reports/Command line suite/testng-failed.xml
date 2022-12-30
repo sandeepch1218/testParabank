@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Command line suite]" verbose="0">
+  <test thread-count="5" name="Command line test(failed)" verbose="0">
+    <classes>
+      <class name="com.parabank.TestRegister">
+        <methods>
+          <include name="initMethod"/>
+          <include name="initTestData"/>
+          <include name="quitDriver"/>
+          <include name="Create"/>
+        </methods>
+      </class> <!-- com.parabank.TestRegister -->
+      <class name="com.parabank.TestLogin">
+        <methods>
+          <include name="login"/>
+          <include name="quitDriver"/>
+          <include name="initTestData"/>
+          <include name="initMethod"/>
+        </methods>
+      </class> <!-- com.parabank.TestLogin -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
